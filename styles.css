@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Шапка сайта */
+header {
+    background: #0078d7;
+    color: #fff;
+    padding: 16px 7px;
+    text-align: right;
+    font-size: 5px;
+    color: black;
+   
+}
+
+/* Навигация */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+nav a {
+    text-decoration: none;
+    color: #0078d7;
+}
+.popup {
+    display: none; /* Скрываем попап по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    color: #0078d7;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.close-btn:hover {
+    color: #ff0000;
+}
+
+/* Основной контент */
+section {
+    padding: 20px;
+    text-align: center;
+}
+button{
+    font-size: 40px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 0px;
+    background: grey;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
